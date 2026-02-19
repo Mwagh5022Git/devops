@@ -1,0 +1,13 @@
+
+Q.  what is the use of artifacts  ?  
+Ans:  ✅ Artifacts — क्या होते हैं और उनका use क्या है?
+        Artifacts = Pipeline या build process के दौरान जो files generate होती हैं, उन्हें future use के लिए save करके store किया जाता है — इन्हें ही artifacts कहते हैं.
+
+      👉 Simple words में:    “Pipeline का output files = Artifacts”
+      👉 Artifacts are the output files generated during CI/CD pipeline stages that are stored and used in later stages such as testing and deployment.
+      Artifacts का Main Use
+      1️⃣ Build Output Save करन    :  ताकि बाद में deploy कर सकें.
+      2️⃣ Stage to Stage File Transfer  : Pipeline में:  Artifacts automatically next stage में pass हो जाते हैं.
+      3️⃣ Debugging  :  Artifacts में:  save करके issue troubleshoot कर सकते हैं.
+      4️⃣ Version Storage  :  हर build का output safely stored रहता है.  👉 Pipeline run होने के बाद output.txt download कर सकते हैं.
+    
